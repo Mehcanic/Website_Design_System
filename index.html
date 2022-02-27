@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Website Design System</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo will be here</div>
+        <div class="title"><h2>Design System</div></h2>
+    </header>
+    
+    <section class="colors">
+        <div class="boxtitle">
+            <h2><span>01</span> Colors</h2>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="colorbox colorbox1"><div></div><h2>#0B0D17</h2></div>
+                <div class="colorspec">
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">11, 13, 23</p></div>
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">230°, 35%, 7%</p></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="colorbox colorbox2"><div></div><h2>#D0D6F9</h2></div>
+                <div class="colorspec">
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">208, 214, 249</p></div>
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">231°, 77%, 90%</p></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="colorbox colorbox3"><div></div><h2>#FFFFFF</h2></div>
+                <div class="colorspec">
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">255, 255, 255</p></div>
+                    <div class="colorname"><h3 class="rgb-color">RGB</h3><p class="value">0°, 0%, 100%</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="typo">
+        <div class="boxtitle">
+            <h2><span>02</span> Typography</h2>
+        </div>
+        <div class="description">
+            <div class="headings">
+                <div class="heading-box">
+                    <h2>Heading 1 - Bellefair Regullar - 150px</h2>
+                    <h3 class="heading-1">EARTH</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Heading 2 - Bllefair Regullar - 100px</h2>
+                    <h3 class="heading-2">VENUS</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Heading 3 - Bellefair Regullar - 56px</h2>
+                    <h3 class="heading-3">JUPITER & SATURN</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Heading 4 - Bellefair Regullar - 32px</h2>
+                    <h3 class="heading-4">URANUS, NEPTUNE & PLUTO</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space</h3>
+                    <h3 class="heading-5">SO, YOU WANT TO TRAVEL TO SPACE</h3>
+                </div>
+            </div>
+            <div class="subheadings">
+                <div class="heading-box">
+                    <h2>Subheading 1 - Bellfair Regular - 28px</h2>
+                    <h3 class="subheading-1">384.400KM</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space</h2>
+                    <h3 class="subheading-2">AVG. DISTANCE</h3>
+                </div>
+                <div class="heading-box">
+                    <h2>Nav Text - Barlow Condensed Regular - 16px - 2.7 Character Space</h2>
+                    <h3 class="nav-text">Europa</h3>
+                </div>
+                <div class="heading-box">
+                    <h2 class="body-text">Body Text</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque perferendis autem, doloribus perspiciatis mollitia eum ea dolorum, vero omnis sint asperiores distinctio nulla possimus. Repellendus, animi, ipsum architecto cumque perferendis excepturi molestias ex hic blanditiis nulla beatae delectus nam tempore modi placeat ea consequuntur veritatis, quisquam distinctio autem. Aliquam perspiciatis id iste est doloribus commodi totam, unde dolores ad, quo incidunt hic animi reiciendis corrupti harum ipsum blanditiis obcaecati possimus cupiditate maiores, beatae aperiam dignissimos laboriosam! Magni totam numquam dignissimos laudantium maxime soluta repellat eveniet deserunt delectus quas. Ut consequuntur accusamus non molestiae consectetur culpa eum! Rerum, et. Laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="interactive">
+        <div class="boxtitle">
+            <h2><span>03</span> Interactive Elements</h2>
+        </div>
+        <div class="grid">
+            <div class="nav-links">
+                <ul class="nav-flex">
+                    <li class="nav-states" id="nav-active">00 <span>ACTIVE</span></li>
+                    <li class="nav-states" id="nav-hover">01 <span>HOVERED</span></li>
+                    <li class="nav-states">02 <span>IDLE</span></li>
+                </ul>
+                <p>Different States of Navigation Bar</p>
+            </div>
+            <div class="buttons">
+                <div>
+                    <div class="main-button"><span>EXPLORE</span></div>
+                    <p>Landing Page Main Button - Idle</p>
+                </div>
+                <div>
+                    <div class="main-button main-button-hoover"><span>EXPLORE</span></div>
+                    <p>Landing Page Main Button - Hover</p>
+                </div>
+            </div>
+            <div class="tabs">
+                <ul class="tabs-flex">
+                    <li class="tab tab-active">MOON</li>
+                    <li class="tab tab-hover">MARS</li>
+                    <li class="tab">EUROPA</li>
+                </ul>
+                <p>Tabs (Active, Hover & Idle)</p>
+            </div>
+            <div class="sliders-1">
+                <ul class="sliders-flex">
+                    <li class="slider1"></li>
+                    <li class="slider2"></li>
+                    <li class="slider3"></li>
+                </ul>
+                <p>Slider 1 States (Active, Hover & Idle)</p>
+            </div>
+            <div class="sliders-2">
+                <ul class="sliders-2-flex">
+                    <li class="slider1">1</li>
+                    <li class="slider2">2</li>
+                    <li class="slider3">3</li>
+                </ul>
+                <p>Slider 2 States (Active, Hoover & Idle</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
